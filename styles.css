@@ -218,8 +218,7 @@ ul li{
         margin-top: 125px;
     }
 }
-
-@media only screen and (max-width:350px){
+@media only screen and (max-width:346px){
     .container .infopara{
         top: 500px;
         font-size: 40px;
@@ -229,6 +228,6 @@ ul li{
     }
 
     .container .navcontainer{
-        height: 1600px;
+        height: 2000px;
     }
 }
