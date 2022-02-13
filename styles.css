@@ -218,16 +218,38 @@ ul li{
         margin-top: 125px;
     }
 }
-@media only screen and (max-width:346px){
+@media only screen and (max-width:500px){
     .container .infopara{
-        top: 500px;
+        top: 250px;
         font-size: 40px;
     }
     .container .infoheading{
-        top: 250px;
+        top: 140px;
+        width: 500px;
     }
 
     .container .navcontainer{
-        height: 2000px;
+        height: 1200px;
+    }
+
+    .container > h1{
+        position: fixed;
+        left: 30px;
+        top: 100px;
+    }
+    ul{
+        height: 700px;
+    }
+    .container #projects{
+        top: 1950px;
+    }
+    .container #contact{
+        top: 3690px;
+    }
+    .container #lastly{
+        top: 5000px;
+    }
+    .container #lastlyParagraph{
+        top: 5100px;
     }
 }
